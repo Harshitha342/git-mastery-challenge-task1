@@ -11,8 +11,14 @@
       "enabled": true,
       "schedule": "0 2 * * *",
       "retention_days": 30
+    },
+    "replication": {
+      "enabled": true,
+      "mode": "master-slave",
+      "failover": "automatic"
     }
   },
+
   "development": {
     "connection": {
       "host": "localhost",
@@ -29,5 +35,30 @@
       "seed_data": true,
       "debug_queries": true
     }
+  },
+
+  "experimental": {
+    "connection": {
+      "host": "cluster-ai-db.example.com",
+      "port": 5432,
+      "database": "devops_experimental",
+      "ssl_mode": "require",
+      "pool_size": 50,
+      "distributed": true,
+      "read_replicas": 4
+    },
+    "backup": {
+      "enabled": true,
+      "schedule": "*/30 * * * *",
+      "retention_days": 7,
+      "ai_optimized": true
+    },
+    "ai_features": {
+      "predictive_indexing": true,
+      "auto_query_tuning": true,
+      "anomaly_detection": true,
+      "model_version": "v2.0-beta"
+    },
+    "notes": "Experimental AI database optimizations — not for production use"
   }
 }
