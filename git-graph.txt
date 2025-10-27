@@ -1,0 +1,25 @@
+* 4ceefd3 (HEAD -> main, origin/main) docs: Add changelog
+* c172223 docs: Add personal Git journey documentation
+* 003e13b docs: Update changelog for phase 4 progress
+| * 39802da (feature/another-feature) Bad commit
+| | * a3dbd50 (origin/feature/another-feature) feat: Add test feature
+| |/  
+| * 4d38ad2 fix: resolve leftover merge conflict in new-feature.js
+|/  
+* abee4dc (tag: v1.1.0, tag: v1.0.0) docs: Update README
+* a4fa056 docs: Add FAQ section
+| * e7a201c (feature/new-feature) fix: finalize new feature script
+| * 12dc035 (origin/feature/new-feature) feat: Add new feature
+|/  
+*   8afcddd merge: Merge conflict-simulator -> main - resolved conflicts; experimental features added behind flags and documented
+|\  
+| * d3dd9b2 (instructor/conflict-simulator, conflict-simulator) updating conflict-simulator
+* | 3519ba3 Add checkpoin1 screenshot and package-lock.json
+* |   a3b365c Resolved all conflicts including README.md
+|\ \  
+| * | 02011a5 (instructor/dev, dev) updating dev
+| |/  
+* | 0312c6f (instructor/main, instructor/HEAD) updating main
+* | fadfd24 Revise README for DevOps Simulator project
+|/  
+* ae630eb Initial commit
