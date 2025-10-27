@@ -1,49 +1,12 @@
-# CHANGELOG
-
-This changelog records all major Git operations performed in Phase 4 of the Git Mastery Challenge.
-
-### Step 4.1: Git Fetch & Pull
-- ✅ Used `git fetch instructor` **1 time** to check for remote updates.
-- ✅ Compared differences using `git diff main instructor/main`.
-- ✅ Used `git pull instructor main` **1 time** to sync updates.
----
-
-### Step 4.2: Git Stash
-- ✅ Created a new branch: `feature/new-feature`.
-- ✅ Used `git stash push -m "WIP: New feature development"` **1 time** to temporarily save work.
-- ✅ Restored stashed work with `git stash pop`.
-
----
-
-### Step 4.3: Git Cherry-Pick
-- ✅ Used `git cherry-pick <commit-hash>` **1 time** to apply a specific commit from another branch.
-- ✅ Verified successful cherry-pick and pushed changes to main.
-
----
-
-### Step 4.4: Git Rebase
-- ✅ Created `feature/another-feature` branch.
-- ✅ Used `git rebase main` **1 time** to align feature branch with updated main.
-- ✅ Resolved any conflicts and force-pushed changes.
-
----
-
-### Step 4.5: Git Reset & Revert
-- ✅ Made a bad commit (`"BUG"` in `scripts/deploy.sh`).
-- ✅ Used `git revert HEAD` **1 time** to undo it safely.
-- ✅ Practiced 3 reset types:
-  - `git reset --soft HEAD~1`
-  - `git reset --mixed HEAD~1`
-  - `git reset --hard HEAD~1`
-- ✅ Recovered lost commit using `git reflog` and `git cherry-pick`.
-
----
-
-### Step 4.6: Git Tag
-- ✅ Created annotated tags:
-  - `v1.0.0` → "Resolved all conflicts"
-  - `v1.1.0` → "Added all features"
-- ✅ Pushed all tags with `git push origin --tags`.
-
----
-
+- c172223: docs: Add personal Git journey documentation (Harshitha342, 50 seconds ago)
+- 003e13b: docs: Update changelog for phase 4 progress (Harshitha342, 8 minutes ago)
+- abee4dc: docs: Update README (Harshitha342, 26 minutes ago)
+- a4fa056: docs: Add FAQ section (Harshitha342, 49 minutes ago)
+- 8afcddd: merge: Merge conflict-simulator -> main - resolved conflicts; experimental features added behind flags and documented (Harshitha342, 61 minutes ago)
+- 3519ba3: Add checkpoin1 screenshot and package-lock.json (Harshitha342, 18 hours ago)
+- a3b365c: Resolved all conflicts including README.md (Harshitha342, 19 hours ago)
+- d3dd9b2: updating conflict-simulator (Hanu Gupta, 4 days ago)
+- 02011a5: updating dev (Hanu Gupta, 4 days ago)
+- 0312c6f: updating main (Hanu Gupta, 4 days ago)
+- fadfd24: Revise README for DevOps Simulator project (Hanu Gupta, 4 days ago)
+- ae630eb: Initial commit (Hanu Gupta, 4 days ago)
